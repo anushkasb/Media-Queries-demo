@@ -1,0 +1,18 @@
+body{
+    background-color: red;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+content: "welcome";    
+}
+@media(min-width:900px){
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: "working";
+    }
+}
